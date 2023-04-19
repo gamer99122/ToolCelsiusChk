@@ -1,0 +1,6 @@
+obj/
+packages/Selenium.Support.3.141.0/lib/netstandard2.0/WebDriver.Support.dll
+packages/
+bin/Debug/chromedriver.exe
+.vs/ToolCelsiusChk/v16/.suo
+bin/
