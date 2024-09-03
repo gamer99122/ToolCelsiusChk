@@ -33,7 +33,9 @@ namespace ToolCelsiusChk
 
             try
             {
-                Run();
+                //Run();
+                Selenium();
+                LoginCelsiusChk();
                 _driver.Quit();
                 this.Close();
             }
@@ -102,8 +104,8 @@ namespace ToolCelsiusChk
             DriverGoUrl(url);
 
             Random rnd = new Random();
-            double min = 36.0;
-            double max = 37.5;
+            double min = 36.3;
+            double max = 37.1;
             double randomNumber = rnd.NextDouble() * (max - min) + min; // min <= randomNumber < max 之間的亂數
             randomNumber = Math.Round(randomNumber, 1);
 

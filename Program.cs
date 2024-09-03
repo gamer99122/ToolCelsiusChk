@@ -25,7 +25,7 @@ namespace ToolCelsiusChk
 
             Form1 f = new Form1();
             f.Id = args[0];
-            f.Password = args[1];
+            //f.Password = args[1];
 
             if (f.Id.Length != 5)
             {
@@ -33,11 +33,11 @@ namespace ToolCelsiusChk
                 return;
             }
 
-            if (f.Password.Trim().Length <= 0)
-            {
-                MessageBox.Show("密碼不得為空");
-                return;
-            }
+            //if (f.Password.Trim().Length <= 0)
+            //{
+            //    MessageBox.Show("密碼不得為空");
+            //    return;
+            //}
 
             
             Application.Run(f);
